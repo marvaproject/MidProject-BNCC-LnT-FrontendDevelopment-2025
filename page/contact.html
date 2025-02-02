@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BNCC Course</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="#" class="logo">
+        <img src="/assets/brand/Logo.svg" alt="Logo" />
+      </a>
+
+      <ul class="navbar">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/page/course.html">List Courses</a></li>
+        <li><a href="/page/contact.html" class="active">Contact Us</a></li>
+      </ul>
+
+      <div class="login">
+        <a href="page/login.html" class="btn">Login</a>
+        <a href="page/register.html" class="shape-btn">Register</a>
+      </div>
+    </header>
+
+    <!-- Contact -->
+    <section id="home" class="contact">
+      <div class="home-text">
+        <h1>Contact Us</h1>
+        <div class="contact-info-container">
+          <div class="contact-info-item">
+            <i class='bx bx-envelope'></i>
+            <h6>Email</h6>
+            <p>bncc.mlg@gmail.com</p>
+          </div>
+
+          <div class="contact-info-item">
+            <i class='bx bxl-instagram' ></i>
+            <h6>Instagram</h6>
+            <p>@bnccmalang</p>
+          </div>
+
+          <div class="contact-info-item">
+            <i class='bx bx-phone' ></i>
+            <h6>Agent</h6>
+            <p>+62 821-4130-5427</p>
+          </div>
+
+          <div class="contact-info-item">
+            <i class='bx bx-building-house'></i>
+            <h6>Address</h6>
+            <p>Binus University Malang</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img
+          src="/assets/illustration/brand communication-pana.svg"
+          alt="Home Image"
+        />
+      </div>
+    </section>
+
+    <!-- Contact Email -->
+    <section id="contact-email" class="contact-email">
+      <form class="contact-form">
+        <h4>Send Us a Message</h4>
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Enter the subject"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Write your message here..."
+            required
+          ></textarea>
+        </div>
+        <div class="container-btn">
+          <button type="submit" class="shape-btn">Send Message</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- JS -->
+    <script src="/js/navbar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,252 @@
+{
+  "courses": [
+    {
+      "category": "Front-End Development",
+      "image": "/assets/illustration/front-end.png",
+      "courses": [
+        {
+          "level": 1,
+          "title": "Memulai Pemrograman dengan HTML dan CSS",
+          "description": "Pelajari dasar-dasar pembuatan website dengan HTML dan CSS. Anda akan memahami cara membuat struktur halaman web dan memformatnya menggunakan CSS.",
+          "sessions": 6,
+          "enroll_button": "active"
+        },
+        {
+          "level": 2,
+          "title": "Menguasai JavaScript Dasar",
+          "description": "Belajar JavaScript untuk membuat halaman web lebih interaktif. Anda akan memahami cara kerja variabel, kondisi, dan perulangan.",
+          "sessions": 8,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 3,
+          "title": "Membangun Website Responsif dengan Flexbox dan Grid",
+          "description": "Pelajari cara membuat website yang responsif menggunakan Flexbox dan Grid untuk layout yang fleksibel di berbagai ukuran layar.",
+          "sessions": 7,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 4,
+          "title": "Memahami DOM dan Manipulasi dengan JavaScript",
+          "description": "Pelajari cara berinteraksi dengan elemen halaman web menggunakan DOM (Document Object Model) dan manipulasi kontennya dengan JavaScript.",
+          "sessions": 6,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 5,
+          "title": "Menguasai Asynchronous JavaScript dan Fetch API",
+          "description": "Pelajari cara mengelola permintaan data secara asynchronous menggunakan JavaScript dengan teknik seperti Fetch API dan async/await.",
+          "sessions": 8,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 6,
+          "title": "Pengembangan Website dengan React.js",
+          "description": "Memahami framework React untuk membuat aplikasi web interaktif. Pelajari komponen, state, dan props dalam React.js.",
+          "sessions": 9,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 7,
+          "title": "Menyusun Proyek Web dengan React Router dan Redux",
+          "description": "Tingkatkan keterampilan React Anda dengan mempelajari routing menggunakan React Router dan pengelolaan state global dengan Redux.",
+          "sessions": 10,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 8,
+          "title": "Membuat Aplikasi Web Full-Stack dengan React dan Node.js",
+          "description": "Gabungkan keterampilan front-end dan back-end untuk membangun aplikasi web yang lengkap dengan menggunakan React dan Node.js.",
+          "sessions": 12,
+          "enroll_button": "locked"
+        }
+      ]
+    },
+    {
+      "category": "Back-End Development",
+      "image": "/assets/illustration/back-end.png",
+      "courses": [
+        {
+          "level": 1,
+          "title": "Memulai dengan Pemrograman Python untuk Back-End",
+          "description": "Pelajari dasar-dasar Python untuk pengembangan back-end. Anda akan mengerti bagaimana menulis skrip Python dan membangun API sederhana.",
+          "sessions": 7,
+          "enroll_button": "active"
+        },
+        {
+          "level": 2,
+          "title": "Pengenalan Database dengan SQL",
+          "description": "Pelajari dasar-dasar SQL untuk bekerja dengan database. Anda akan mempelajari cara membuat tabel, query, dan mengelola data menggunakan SQL.",
+          "sessions": 6,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 3,
+          "title": "Membangun API dengan Flask",
+          "description": "Pelajari bagaimana membangun aplikasi back-end dengan Flask. Anda akan membuat API menggunakan Python dan menghubungkannya dengan database.",
+          "sessions": 8,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 4,
+          "title": "Membangun RESTful API dengan Django",
+          "description": "Pelajari cara membuat RESTful API menggunakan Django. Anda akan memahami konsep-konsep dasar Django dan cara membangun aplikasi back-end yang efisien.",
+          "sessions": 9,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 5,
+          "title": "Autentikasi dan Keamanan di Web dengan JWT",
+          "description": "Pelajari cara mengimplementasikan autentikasi dan keamanan menggunakan JSON Web Tokens (JWT) di aplikasi back-end.",
+          "sessions": 6,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 6,
+          "title": "Pengembangan Aplikasi dengan Node.js dan Express",
+          "description": "Pelajari penggunaan Node.js dan Express untuk membangun aplikasi back-end yang scalable dan cepat dengan JavaScript.",
+          "sessions": 10,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 7,
+          "title": "Pengelolaan Database NoSQL dengan MongoDB",
+          "description": "Pelajari MongoDB, database NoSQL yang sering digunakan dalam pengembangan aplikasi modern, dan bagaimana mengelola data dalam bentuk dokumen.",
+          "sessions": 7,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 8,
+          "title": "Membangun Aplikasi Full-Stack dengan Node.js dan MongoDB",
+          "description": "Gabungkan front-end dan back-end untuk membuat aplikasi full-stack menggunakan Node.js dan MongoDB.",
+          "sessions": 12,
+          "enroll_button": "locked"
+        }
+      ]
+    },
+    {
+      "category": "Machine Learning",
+      "image": "/assets/illustration/machine-learning.png",
+      "courses": [
+        {
+          "level": 1,
+          "title": "Memulai dengan Pengolahan Data Menggunakan Python",
+          "description": "Pelajari dasar-dasar pengolahan data menggunakan Python dan library seperti Pandas untuk mempersiapkan data yang siap digunakan dalam model machine learning.",
+          "sessions": 5,
+          "enroll_button": "active"
+        },
+        {
+          "level": 2,
+          "title": "Pengenalan Algoritma Machine Learning",
+          "description": "Pelajari berbagai algoritma machine learning dasar seperti regresi linear dan klasifikasi untuk memahami konsep dasar dalam membangun model.",
+          "sessions": 8,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 3,
+          "title": "Pengenalan Neural Networks dan Deep Learning",
+          "description": "Pelajari dasar-dasar jaringan saraf tiruan (neural networks) dan konsep deep learning untuk membangun model yang lebih kompleks.",
+          "sessions": 9,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 4,
+          "title": "Mengolah Data Citra dengan OpenCV dan TensorFlow",
+          "description": "Pelajari bagaimana mengolah dan menganalisis citra digital menggunakan OpenCV dan TensorFlow dalam proyek machine learning.",
+          "sessions": 10,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 5,
+          "title": "Pengenalan Natural Language Processing (NLP)",
+          "description": "Pelajari dasar-dasar pemrosesan bahasa alami (NLP) untuk menganalisis teks dan membangun model berbasis bahasa.",
+          "sessions": 8,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 6,
+          "title": "Model Prediktif dengan Klasifikasi dan Regresi",
+          "description": "Pelajari bagaimana membangun model prediksi dengan algoritma klasifikasi dan regresi untuk memecahkan masalah dunia nyata.",
+          "sessions": 9,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 7,
+          "title": "Optimasi Model dan Hyperparameter Tuning",
+          "description": "Pelajari teknik untuk meningkatkan akurasi model melalui optimasi dan penyesuaian hyperparameter untuk hasil yang lebih baik.",
+          "sessions": 10,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 8,
+          "title": "Membuat Aplikasi Machine Learning dengan Model Deploy",
+          "description": "Pelajari bagaimana mendeply model machine learning ke dalam aplikasi nyata sehingga dapat digunakan untuk prediksi di dunia industri.",
+          "sessions": 12,
+          "enroll_button": "locked"
+        }
+      ]
+    },
+    {
+      "category": "iOS Development",
+      "image": "/assets/illustration/ios.png",
+      "courses": [
+        {
+          "level": 1,
+          "title": "Memulai Pengembangan Aplikasi iOS dengan Swift",
+          "description": "Pelajari dasar-dasar pengembangan aplikasi iOS dengan bahasa pemrograman Swift dan Xcode.",
+          "sessions": 6,
+          "enroll_button": "active"
+        },
+        {
+          "level": 2,
+          "title": "Desain Antarmuka Pengguna dengan SwiftUI",
+          "description": "Pelajari cara menggunakan SwiftUI untuk mendesain antarmuka pengguna di aplikasi iOS.",
+          "sessions": 8,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 3,
+          "title": "Menangani Data dan Penyimpanan Lokal di iOS",
+          "description": "Pelajari cara menangani data di aplikasi iOS menggunakan CoreData dan UserDefaults.",
+          "sessions": 7,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 4,
+          "title": "Memahami API dan Integrasi dengan iOS",
+          "description": "Pelajari cara mengintegrasikan aplikasi iOS dengan API eksternal untuk menambah fungsionalitas dan fitur.",
+          "sessions": 9,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 5,
+          "title": "Membuat Aplikasi iOS dengan Fitur Autentikasi dan Keamanan",
+          "description": "Pelajari cara menambahkan fitur autentikasi pengguna dan meningkatkan keamanan aplikasi iOS.",
+          "sessions": 6,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 6,
+          "title": "Pengembangan Aplikasi iOS dengan ARKit dan CoreML",
+          "description": "Pelajari cara mengembangkan aplikasi augmented reality (AR) dan machine learning menggunakan ARKit dan CoreML.",
+          "sessions": 10,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 7,
+          "title": "Pengujian dan Pemeliharaan Aplikasi iOS",
+          "description": "Pelajari teknik pengujian aplikasi dan cara memelihara aplikasi iOS untuk memastikan performa dan fungsionalitas yang optimal.",
+          "sessions": 8,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 8,
+          "title": "Menyusun Aplikasi iOS Full-Stack dengan Firebase",
+          "description": "Gabungkan front-end dan back-end untuk membangun aplikasi iOS yang penuh dengan menggunakan Firebase.",
+          "sessions": 12,
+          "enroll_button": "locked"
+        }
+      ]
+    }
+  ]
+}

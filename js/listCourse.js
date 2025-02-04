@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           <h6 class="course-title">${course.title}</h6>
           <p class="course-description">${course.description}</p>
           <div class="more">
-            <a href="#" class="shape-btn ${course.enroll_button === "locked" ? "locked" : ""}">
+            <a class="shape-btn ${course.enroll_button === "locked" ? "locked" : ""}">
               Enroll Now
             </a>
             <p class="course-sessions">${course.sessions} Sessions</p>

@@ -271,11 +271,45 @@ section h1 {
   color: var(--secondary-text-color);
 }
 
+.popular-courses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  padding: 5rem 0 5rem 10%;
+}
+
+.popular-courses .home-text {
+  width: 40%;
+}
+
+.popular-course-container {
+  width: 60%;
+  overflow-x: auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.popular-course-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20%;
+  background: linear-gradient(to right, #f5efef, rgba(0, 0, 0, 0));
+  z-index: 1;
+  pointer-events: none;
+}
+
 .popular-course-container .course-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
   padding: 1rem 0 2rem 0;
+  user-select: none;
 }
 
 .popular-course-container .course-item {

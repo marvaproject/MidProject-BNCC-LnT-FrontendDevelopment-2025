@@ -1,13 +1,15 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  try {
-    const response = await fetch("/data/course.json");
-    if (!response.ok) throw new Error("Gagal memuat data course");
-    const courseData = await response.json();
+  const response = await fetch("/data/course.json");
+  const { courses } = await response.json();
 
-    function generateCourseCard(categoryImage, course) {
-      return `
+  courses.forEach(({ category, image, courses }) => {
+    const container = [...document.querySelectorAll(".course-container")]
+      .find(c => c.querySelector(".course-category")?.textContent.trim() === category);
+
+    if (container) {
+      container.querySelector(".course-list").innerHTML = courses.map(course => `
         <div class="course-item">
-          <img src="${categoryImage}" alt="Course Image" />
+          <img src="${image}" alt="Course Image" />
           <p class="course-level">Level ${course.level}</p>
           <h6 class="course-title">${course.title}</h6>
           <p class="course-description">${course.description}</p>
@@ -17,38 +19,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             </a>
             <p class="course-sessions">${course.sessions} Sessions</p>
           </div>
-        </div>`;
+        </div>
+      `).join("");
     }
-
-    function populateCourses() {
-      const containers = document.querySelectorAll(".course-container");
-      const containerMap = new Map();
-
-      containers.forEach(container => {
-        const categoryName = container.querySelector(".course-category").textContent;
-        containerMap.set(categoryName, container);
-      });
-
-      courseData.courses.forEach((category) => {
-        const targetContainer = containerMap.get(category.category);
-        
-        if (targetContainer) {
-          const courseList = targetContainer.querySelector(".course-list");
-          const cardsHTML = category.courses
-            .map(course => generateCourseCard(category.image, course))
-            .join("");
-            
-          courseList.innerHTML = cardsHTML;
-        }
-      });
-    }
-
-    populateCourses();
-  } catch (error) {
-    console.error("Error:", error);
-    const errorContainer = document.createElement("div");
-    errorContainer.style.color = "red";
-    errorContainer.textContent = "Gagal memuat data course. Silakan coba lagi.";
-    document.getElementById("home").appendChild(errorContainer);
-  }
+  });
 });

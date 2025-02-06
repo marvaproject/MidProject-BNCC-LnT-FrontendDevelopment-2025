@@ -187,6 +187,68 @@
       ]
     },
     {
+      "category": "Android Development",
+      "image": "/assets/illustration/android.png",
+      "courses": [
+        {
+          "level": 1,
+          "title": "Memulai Pengembangan Aplikasi Android dengan Kotlin",
+          "description": "Pelajari dasar-dasar pengembangan aplikasi Android menggunakan Kotlin. Anda akan mempelajari cara membuat aplikasi sederhana dan memahami konsep dasar pemrograman Kotlin.",
+          "sessions": 6,
+          "enroll_button": "active"
+        },
+        {
+          "level": 2,
+          "title": "Desain Antarmuka Pengguna dengan XML dan Android Studio",
+          "description": "Pelajari cara mendesain antarmuka pengguna aplikasi Android menggunakan XML di Android Studio. Anda akan memahami prinsip desain UI Android.",
+          "sessions": 8,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 3,
+          "title": "Menangani Data dan Penyimpanan di Android",
+          "description": "Pelajari cara menangani data, penyimpanan lokal, dan database SQLite di Android.",
+          "sessions": 7,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 4,
+          "title": "Membangun Aplikasi Android dengan Fitur Jaringan",
+          "description": "Pelajari cara mengintegrasikan aplikasi Android dengan API eksternal untuk mengakses data melalui jaringan.",
+          "sessions": 9,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 5,
+          "title": "Menerapkan Fitur Keamanan di Aplikasi Android",
+          "description": "Pelajari cara mengimplementasikan autentikasi dan fitur keamanan lainnya di aplikasi Android.",
+          "sessions": 6,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 6,
+          "title": "Pengembangan Aplikasi Android dengan Firebase",
+          "description": "Pelajari cara menggunakan Firebase untuk menambahkan fitur autentikasi, database, dan notifikasi ke aplikasi Android.",
+          "sessions": 10,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 7,
+          "title": "Optimasi Performa dan Pengujian Aplikasi Android",
+          "description": "Pelajari teknik untuk meningkatkan performa aplikasi Android dan menguji aplikasi secara efektif.",
+          "sessions": 8,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 8,
+          "title": "Membangun Aplikasi Android Full-Stack dengan Kotlin dan Firebase",
+          "description": "Gabungkan front-end dan back-end untuk membangun aplikasi Android full-stack menggunakan Kotlin dan Firebase.",
+          "sessions": 12,
+          "enroll_button": "locked"
+        }
+      ]
+    },
+    {
       "category": "iOS Development",
       "image": "/assets/illustration/ios.png",
       "courses": [
@@ -243,6 +305,68 @@
           "level": 8,
           "title": "Menyusun Aplikasi iOS Full-Stack dengan Firebase",
           "description": "Gabungkan front-end dan back-end untuk membangun aplikasi iOS yang penuh dengan menggunakan Firebase.",
+          "sessions": 12,
+          "enroll_button": "locked"
+        }
+      ]
+    },
+    {
+      "category": "UI/UX Design",
+      "image": "/assets/illustration/ui-ux.png",
+      "courses": [
+        {
+          "level": 1,
+          "title": "Pengenalan UI/UX Design dengan Figma",
+          "description": "Pelajari dasar-dasar desain antarmuka pengguna (UI) dan pengalaman pengguna (UX) menggunakan Figma. Anda akan belajar prinsip desain dan cara membuat wireframes.",
+          "sessions": 6,
+          "enroll_button": "active"
+        },
+        {
+          "level": 2,
+          "title": "Desain Antarmuka Pengguna dengan Figma",
+          "description": "Pelajari cara mendesain antarmuka pengguna aplikasi dan website dengan Figma. Anda akan mempelajari cara membuat layout, warna, tipografi, dan elemen UI lainnya.",
+          "sessions": 8,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 3,
+          "title": "Prototyping dan Animasi UI dengan Figma",
+          "description": "Pelajari cara membuat prototipe interaktif dan animasi UI menggunakan Figma untuk meningkatkan pengalaman pengguna.",
+          "sessions": 7,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 4,
+          "title": "Mengoptimalkan UX dengan User Research",
+          "description": "Pelajari bagaimana melakukan riset pengguna dan uji coba untuk memahami kebutuhan dan perasaan pengguna dalam desain UI/UX.",
+          "sessions": 9,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 5,
+          "title": "Membuat Desain UI/UX untuk Aplikasi Mobile",
+          "description": "Pelajari cara mendesain UI/UX untuk aplikasi mobile, fokus pada responsivitas dan kemudahan penggunaan di perangkat mobile.",
+          "sessions": 6,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 6,
+          "title": "Desain UI/UX untuk Web dengan Figma",
+          "description": "Pelajari cara mendesain antarmuka pengguna untuk aplikasi web dengan Figma, fokus pada pengalaman pengguna yang optimal di browser.",
+          "sessions": 10,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 7,
+          "title": "Kolaborasi Tim dalam Desain UI/UX menggunakan Figma",
+          "description": "Pelajari cara berkolaborasi dengan tim desain menggunakan Figma, bekerja bersama untuk menghasilkan desain yang koheren.",
+          "sessions": 8,
+          "enroll_button": "locked"
+        },
+        {
+          "level": 8,
+          "title": "Membuat Sistem Desain UI/UX untuk Produk Digital",
+          "description": "Pelajari cara membuat sistem desain UI/UX yang dapat diterapkan di seluruh produk digital untuk konsistensi dan efisiensi.",
           "sessions": 12,
           "enroll_button": "locked"
         }

@@ -1,3 +1,5 @@
+<img src="/assets/brand/Logo.svg" alt="Project Logo" width="40%" align-item="center">
+
 # Mid Project BNCC LnT Frontend Development 2025
 
 ### Screenshots
